@@ -21,7 +21,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="index.jsp">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link active" href="About.jsp">About</a>
                     <a class="nav-item nav-link" href="Resume@Ankit Chauhan(Java Developer).pdf">Resume</a>
                     <a class="nav-item nav-link" href="project.jsp">Projects</a>
