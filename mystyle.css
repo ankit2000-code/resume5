@@ -75,6 +75,11 @@ a:hover {
   border-radius: 20px;
 }
 
+.intro{
+  width: 800px;
+  height: 80px;
+}
+
 .footer{
   background: white;   /* #152F4F;*/
   color:#152F4F;
