@@ -1,20 +1,20 @@
 @charset "ISO-8859-1";
 .container{
     height:400px;
-    
 }
 
+/*
 .container-fluid {
    clip-path: polygon(100% 0, 100% 85%, 85% 100%, 16% 100%, 0 85%, 0 0);
 }
+*/
 
 .image{
 	width:300px;
 	height:300px;
-	margin-left:900px;
-	margin-top:-620px;
-	border-radius:300px;
-
+  margin-left:900px;
+	margin-top:-625px;
+	border-radius:30px;
 }
 
 
