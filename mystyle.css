@@ -4,10 +4,10 @@
 }
 
 
-
+/*
 .container-fluid {
-  /* clip-path: polygon(100% 0, 100% 85%, 85% 100%, 16% 100%, 0 85%, 0 0);*/
-}
+   clip-path: polygon(100% 0, 100% 85%, 85% 100%, 16% 100%, 0 85%, 0 0);
+}*/
 
 
 .image{
@@ -148,15 +148,18 @@ button.c{
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
-  margin-top:20px;
   margin-left:-50px;
   border-radius:20px;
   cursor: pointer;
   width: 200px;
-  box-shadow: 0 20px 50px rgba(0,0,0,.5);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 button.c:hover {
   opacity: 0.8;
+  background-color: red;
+  color: black;
+  font-family: cursive;
 }
 .psw{
   margin-left:-40px;
@@ -176,14 +179,14 @@ button.c:hover {
   padding-top: 60px;
 }
 .modal-content {
-  background:rgba(84, 84, 161, 0.603);
+  background:lightgray;
   /* background-color: white;
   border: 1px solid #888;
-  */width:1150px;
-  height:520px;
-  margin-top:60px;
+  */width:1100px;
+  height:500px;
+  margin-top:0px;
   border:0px solid #0F3B5F;
-  border-radius: 100px 100px 100px 100px;;
+  border-radius: 10px;;
   }
 /* Add Zoom Animation */
 .animate {
@@ -226,28 +229,6 @@ button.c:hover {
   padding: 20px 25px;
   background-color: #f44336;
 }*/
-.username{
-    margin-left:-920px;
-}
-.password{
-    margin-left:-920px;
-}
-
-.Rememberme{
-  margin-top:10px;
-  margin-left:-62px;
-}
-
-
-
-
-img.avatar {
-  border:1px solid black;
-  box-shadow:0 20px 50px rgba(0,0,0,.5);
-  margin-top:-110px;
-  border-radius: 50%;
-}
-
 
 .container {
    /*border:2px solid red;*/
@@ -255,10 +236,10 @@ img.avatar {
 margin-top:10px;
   }
 .container1{
-  width:1148px;
+  width:1100px;
   height:100px;
   background:rgba(177, 175, 187, 0.682);
-  border-radius: 0px 0px 100px 100px;
+  border-radius: 0px 0px 10px 10px;
   margin-top:51px;
   margin-left:0px; 
   }

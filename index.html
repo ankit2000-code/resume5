@@ -19,13 +19,17 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="About.html">About</a>
-                    <a class="nav-item nav-link" href="Ankit@Resume(27June).docx">Resume</a>
-                    <a class="nav-item nav-link disable" href="project.html">Projects</a>
-                    <a class="nav-item nav-link" href="Contact.html" >Contact</a>
-                    <a class="nav-item nav-link" href="Hire_page.html">Hire Me</a>
-                </div>
+                    <a class="nav-item nav-link active" href="index.html"><span class="fa fa-home"></span> Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="About.html"><span class="fa fa-work"></span> About</a>
+                    <a class="nav-item nav-link" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">
+                      <span class="fa fa-chat"></span> Skills
+                    </a>
+                    <a class="nav-item nav-link" href="Ankit@Resume(27June).docx"><span class="fa fa-download"></span> Resume</a>
+                    <a class="nav-item nav-link disable" href="project.html"><span class="fa fa-work"></span> Worked On</a>
+                    <a class="nav-item nav-link" onclick="document.getElementById('contactDetails').style.display='block'" style="width:auto;">
+                      <span class="fa fa-phone"></span> Contact</a>
+                    <a class="nav-item nav-link" href="Hire_page.html"><span class="fa fa-whatsapp"></span> Chat</a>
+                  </div>
             </div>
         </nav>
 
@@ -61,10 +65,6 @@
 
 
   <center>
- <button class="a" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">
-     Login
- </button>
- 
  <div id="id01" class="modal">
 
   <form class="modal-content animate" method="post" action="servlet/Home" >
@@ -82,7 +82,28 @@
 
 </center>
   
-
+<center>
+  <div id="contactDetails" class="modal">
+ 
+   <form class="modal-content animate" method="post" action="servlet/Home" >
+                                    
+                 <div class="container">
+                       <span onclick="document.getElementById('contactDetails').style.display='none'" class="close" title="Close Modal">&times;</span>
+                       <h2 class="diaplay-5">Hello I'm Ankit Chauhan</h2>
+                              <p>Seeking a platform where i learn Advanced professional skills and grow my career as Senior Software Engineer.</p>
+                              <a class="btn btn-outline-dark btn-lg" href="tel:+91-9717201841"><span class="fa fa-phone fa-spin"> </span> +91-9717201841</a>
+                              <a class="btn btn-outline-dark btn-lg" href="https://web.whatsapp.com/send?phone=919717201841&text&app_absent=0"><span class="fa fa-whatsapp fa-spin"> </span> Send Message</a>
+                              <a class="btn btn-outline-dark btn-lg" href="mailto:ankitchauhanhs_cse16@its.edu.in"><span class="fa fa-envelope "> </span> Email Me</a>
+                              <a href="https://www.linkedin.com/in/ankit-chauhan-56828b188/" class="btn btn-outline-dark btn-lg" target="blank" rel="noopener noreferrer"><span class="fa fa-linkedin "> </span> LinkedIn</a>
+                 </div>
+                <div class="container1" >
+                   <button type="button" class="c" onclick="document.getElementById('contactDetails').style.display='none'">Close</button>
+                 </div>
+           </form>              
+       </div>       
+ 
+ </center>
+ 
 
 
 
