@@ -1,6 +1,6 @@
 @charset "ISO-8859-1";
 .container{
-    height:600px;
+    height:1200px;
 }
 
 
@@ -14,7 +14,7 @@
 	width:250px;
 	height:250px;
   margin-left:920px;
-	margin-top:-1020px;
+	margin-top:-2250px;
 	border-radius:100%;
 }
 
@@ -77,10 +77,6 @@ a:hover {
   
 }
 
-.intro{
-  width: 800px;
-  height: 80px;
-}
 
 
 
@@ -245,14 +241,87 @@ margin-top:10px;
   }
 
 
+/*
+  .jumbotron {
+    background: #358CCE;
+    color: #FFF;
+    border-radius: 0px;
+    }
+  .jumbotron-sm { 
+      padding-top: 24px;
+    padding-bottom: 24px; 
+    }
+  .jumbotron small {
+    color: #FFF;
+  }
+  .h1 small {
+    font-size: 24px;
+    }
+*/
 
+.h1  {
+  font-size: 40px;
+  height: 50px;
+  margin-top: 10px;
+  color: #0F3B5F;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
 
+  .intro{
+    color: #0F3B5F;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+  }
 
+  .homeIntro{
+    width: 800px;
+    height: 80px;
+    color: #0F3B5F;
+    font-family: cursive
+  }
 
+ .homeResIntro{
+    width: 1000px;
+    color: #0F3B5F;
+    font-family: cursive
+ }
 
+ .responsibilities{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ .setResponsibilitie{
+  width: 700px;
+  height: 20px;
+  border-radius: 1px solid red;
+ }
 
+ .diaplay-5{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
+.education{
+  margin-top: 0px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.educationIntro{
+  width: 1000px;
+  color: #5382a8;
+  font-family: cursive
+}
 
+.skills{
+  margin-top: 100px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.skillsIntro{
+  width: 1000px;
+  color: #0F3B5F;
+  cursor: pointer;
+  font-family: cursive
+}
+.skillsImage{
+  margin-left: 350px;
+  margin-top: -300px;
+}
 
 
 
