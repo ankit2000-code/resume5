@@ -1,24 +1,17 @@
-@charset "ISO-8859-1";
-.container{
-    height:1200px;
+.image{
+	width:250px;
+	height:250px;
+  margin-left:550px;
+  margin-top: -230px;
+	border-radius:100%;
 }
+
 
 
 /*
 .container-fluid {
    clip-path: polygon(100% 0, 100% 85%, 85% 100%, 16% 100%, 0 85%, 0 0);
 }*/
-
-
-.image{
-	width:250px;
-	height:250px;
-  margin-left:920px;
-	margin-top:-2250px;
-	border-radius:100%;
-}
-
-
 
 
 body {font-family: Arial, Helvetica, sans-serif;}
@@ -78,26 +71,71 @@ a:hover {
 }
 
 
-
-
-/*For UserLogin*/
-.SetLogin{
-  height:400px;
-  width:1100px;
-  margin-top:1px;
-  border-radius: 400px;
-      border:1px solid #0F3B5F;
+.intro{
+  color: #0F3B5F;
+  width:450px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
 }
 
-.UserLogin{
-  box-shadow: 0 20px 50px rgba(0,0,0,.5);
-      height:396px;
-      width:548px;
-      margin-left:1px;
-      margin-top:-398px;
-      border-radius: 400px 0px 0px 400px;
-      border:1px solid #0F3B5F;
-  }
+.homeIntro{
+  width: 550px;
+  height: 80px;
+  color: #0F3B5F;
+  font-family: cursive
+}
+
+.homeResIntro{
+  width: 810px;
+  color: #0F3B5F;
+  font-family: cursive
+}
+
+
+.workExperience{
+  margin-top: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.setWorkExperience{
+  width: 400px;
+  color: #0F3B5F;
+  cursor: pointer;
+  font-family: cursive
+}
+.expImage{
+  margin-left: 450px;
+  margin-top: -450px;
+}
+
+.skills{
+  margin-top: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.skillsIntro{
+  width: 800px;
+  color: #0F3B5F;
+  cursor: pointer;
+  font-family: cursive
+}
+
+.skillsImage{
+  margin-left: 300px;
+  margin-top: -300px;
+}
+
+
+.diaplay-5{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.education{
+  margin-top: 0px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.educationIntro{
+  width: 800px;
+  color: #0F3B5F;
+  font-family: cursive
+}
   .h1{
       margin-left:0px;
       
@@ -226,6 +264,14 @@ button.c:hover {
   background-color: #f44336;
 }*/
 
+
+
+
+
+
+
+
+
 .container {
    /*border:2px solid red;*/
    width:1000px;
@@ -247,7 +293,8 @@ margin-top:10px;
     color: #FFF;
     border-radius: 0px;
     }
-  .jumbotron-sm { 
+
+    .jumbotron-sm { 
       padding-top: 24px;
     padding-bottom: 24px; 
     }
@@ -267,69 +314,12 @@ margin-top:10px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
 }
 
-  .intro{
-    color: #0F3B5F;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
-  }
-
-  .homeIntro{
-    width: 800px;
-    height: 80px;
-    color: #0F3B5F;
-    font-family: cursive
-  }
-
- .homeResIntro{
-    width: 1000px;
-    color: #0F3B5F;
-    font-family: cursive
- }
-
- .responsibilities{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
- }
- .setResponsibilitie{
-  width: 700px;
-  height: 20px;
-  border-radius: 1px solid red;
- }
-
- .diaplay-5{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.education{
-  margin-top: 0px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.educationIntro{
-  width: 1000px;
-  color: #5382a8;
-  font-family: cursive
-}
-
-.skills{
-  margin-top: 100px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.skillsIntro{
-  width: 1000px;
-  color: #0F3B5F;
-  cursor: pointer;
-  font-family: cursive
-}
-.skillsImage{
-  margin-left: 350px;
-  margin-top: -300px;
-}
-
-
 
 
 
 .footer{
   background: white;   /* #152F4F;*/
-  color:#152F4F;
+  color: black
   
   .links{
     ul {list-style-type: none;}
@@ -355,7 +345,3 @@ margin-top:10px;
   }
   .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
 }
-
-
-
-
