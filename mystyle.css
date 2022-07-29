@@ -2,7 +2,7 @@
 	width:250px;
 	height:250px;
   margin-left:550px;
-  margin-top: -230px;
+  margin-top: -200px;
 	border-radius:100%;
 }
 
@@ -14,7 +14,9 @@
 }*/
 
 
-body {font-family: Arial, Helvetica, sans-serif;}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 * {box-sizing: border-box;}
 
 
@@ -80,14 +82,14 @@ a:hover {
 .homeIntro{
   width: 550px;
   height: 80px;
-  color: #0F3B5F;
-  font-family: cursive
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .homeResIntro{
   width: 810px;
-  color: #0F3B5F;
-  font-family: cursive
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
@@ -96,14 +98,14 @@ a:hover {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .setWorkExperience{
-  width: 400px;
-  color: #0F3B5F;
+  width: 350px;
+  color: black;
   cursor: pointer;
-  font-family: cursive
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .expImage{
-  margin-left: 450px;
-  margin-top: -450px;
+  margin-left: 350px;
+  margin-top: -780px;
 }
 
 .skills{
@@ -112,14 +114,9 @@ a:hover {
 }
 .skillsIntro{
   width: 800px;
-  color: #0F3B5F;
+  color: black;
   cursor: pointer;
-  font-family: cursive
-}
-
-.skillsImage{
-  margin-left: 300px;
-  margin-top: -300px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
@@ -133,8 +130,8 @@ a:hover {
 }
 .educationIntro{
   width: 800px;
-  color: #0F3B5F;
-  font-family: cursive
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
   .h1{
       margin-left:0px;
